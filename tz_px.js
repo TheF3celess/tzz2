@@ -5,7 +5,7 @@ export const checkTz = async (username) => {
   const proxyHost = "148.113.161.141";
   const proxyPort = "5959";
   const proxyUsername = username;
-  const proxyPassword = "qNyHNzFRMFuwQhs";
+  const proxyPassword = process.env.JEDI;
 
   // Properly formatted proxy URL
   const proxyUrl = `http://${proxyUsername}:${proxyPassword}@${proxyHost}:${proxyPort}`;
