@@ -4,8 +4,8 @@ import { checkTz } from "./tz_px.js";
 
 const url = "https://cybertoolhub.space/";
 // Threads range
-const min = 5; // Minimum threads for task execution.
-const max = 8; // Maximum threads for task execution.
+const min = 6; // Minimum threads for task execution.
+const max = 11; // Maximum threads for task execution.
 let bots;
 let views = 0;
 function generateRandomNumber(min, max) {
